@@ -1,8 +1,8 @@
-title: John Smith
+title: Qiyuan Zhao
 description: My Personal Blog
-author: John Smith
+author: QIYUAN ZHAO
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
+github: https://github.com/zhaoqiyuan1994
 about: Freelance developer
 
 baseurl: ""
@@ -10,7 +10,7 @@ url: ""
 
 allowsearch: true
 
-disqus_shortname: aboutashu
+disqus_shortname: zhaoqiyuan1994
 google_analytics: UA-72862926-1
 
 share:
