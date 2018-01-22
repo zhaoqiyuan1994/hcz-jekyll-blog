@@ -3,14 +3,13 @@ layout: post
 title: Example content for posts  
 categories: JavaScript
 ---
-<h2>Dynamic Photo Wall</h2>
-<p>There is my photo wall [view][PhotoWall.github.io] it</p>
-[PhotoWall.github.io]: https://github.com/zhaoqiyuan1994/PhotoWall.github.io
-<p>What will you do if you want to create a dynamic photo wall in your website?
-The way i choose is using js and html "<A>" tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked</p>
+Dynamic Photo Wall
+There is my photo wall [view][PhotoWall.github.io] it
+What will you do if you want to create a dynamic photo wall in your website?
+The way i choose is using js and html "<A>" tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked
 
-<p>Firstly you need to think what kind of data structure you use, in this case i choose array, because there are few element. if you want use that to process a database you need to consider another efficient structure, such as hash map</p>
-<h2>Js Code</h2>
+Firstly you need to think what kind of data structure you use, in this case i choose array, because there are few element. if you want use that to process a database you need to consider another efficient structure, such as hash map
+Js Code
 
 <pre><code><script type="text/javascript">
 		var photos = ['img/1.png','img/2.png','img/3.png'];
@@ -56,7 +55,7 @@ The way i choose is using js and html "<A>" tag to implement a dynamic photo wal
 	}
 	</script>
 </code></pre>
-[view full code]: https://github.com/zhaoqiyuan1994/dynamicphoto
+[PhotoWall.github.io]: https://github.com/zhaoqiyuan1994/PhotoWall.github.io
 
 ### Code snippet
 
