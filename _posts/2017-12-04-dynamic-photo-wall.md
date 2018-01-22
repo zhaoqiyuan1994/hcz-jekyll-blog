@@ -56,7 +56,7 @@ The way i choose is using js and html "<A>" tag to implement a dynamic photo wal
 	</script>
 </code></pre>
 [view full code][dynamicphoto]
-[dynamicphoto]:github.com/zhaoqiyuan1994/dynamicphoto
+[dynamicphoto]:  https://github.com/zhaoqiyuan1994/dynamicphoto
 
 ### Code snippet
 
