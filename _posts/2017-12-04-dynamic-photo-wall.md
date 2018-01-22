@@ -4,7 +4,7 @@ title: Example content for posts
 categories: JavaScript
 ---
 Dynamic Photo Wall
-There is my photo wall [view][PhotoWall.github.io] it
+There is my photo wall <A herf="https://github.com/zhaoqiyuan1994/PhotoWall.github.io" target="view_window">view</A>it
 What will you do if you want to create a dynamic photo wall in your website?
 The way i choose is using js and html "<A>" tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked
 
