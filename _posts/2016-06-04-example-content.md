@@ -11,12 +11,52 @@ The way i choose is using js and html "<A>" tag to implement a dynamic photo wal
 <p>Firstly you need to think what kind of data structure you use, in this case i choose array, because there are few element. if you want use that to process a database you need to consider another efficient structure, such as hash map</p>
 <h2>Js Code</h2>
 
-<pre><code>tell application "Foo"
-    beep
-end tell
+<pre><code><script type="text/javascript">
+		var photos = ['img/1.png','img/2.png','img/3.png'];
+	var count = 0; //count the num of picture
+	var flag; //return the action id
+	function callback() //this method is main method to change the picture
+	{ 
+ 		document.getElementById("photo").src = photos[count];
+ 		count++;
+ 	if (count == photos.length)
+  		count = 0; 
+	} 
+ 
+	function change() //start
+	{
+ 		flag = setInterval(callback,2000); 
+	}
+ 
+	function off() //if your mouse stay on the current picture it will stop
+	{
+ 		clearInterval(flag);
+	}
+ 
+	function on() //when you move your mouse, keep changing the picture
+	{
+ 		flag = setInterval(callback,2000); 
+	}
+ 
+	function leftMove() //move to left picture
+	{
+	 	document.getElementById("photo").src = photos[count];
+ 		count++;
+ 		if (count == photos.length)
+  			count = 0;
+	}
+ 
+	function rightMove() //move to right picture
+	{
+ 	count--;
+ 	document.getElementById("photo").src = photos[count];
+ 	if (count <= 0)
+  		count = photos.length - 1;
+	}
+	</script>
 </code></pre>
 
-<p>This is an <a href="#">example link</a>.</p>
+<p></p>
 
 <p>I start my morning with a cup of coffee and
 <a href="http://www.nytimes.com/">The New York Times</a>.</p>
