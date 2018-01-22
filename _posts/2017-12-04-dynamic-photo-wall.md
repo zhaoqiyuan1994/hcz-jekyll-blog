@@ -4,7 +4,8 @@ title: Example content for posts
 categories: JavaScript
 ---
 <h2>Dynamic Photo Wall</h2>
-
+<p>There is my photo wall [view][PhotoWall.github.io] it</p>
+[PhotoWall.github.io]: https://github.com/zhaoqiyuan1994/PhotoWall.github.io
 <p>What will you do if you want to create a dynamic photo wall in your website?
 The way i choose is using js and html "<A>" tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked</p>
 
