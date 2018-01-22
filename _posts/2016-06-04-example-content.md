@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Example content for posts  
-categories: others
+categories: JavaScript
 ---
 <h1>Dynamic Photo Wall</p>
 
@@ -56,10 +56,14 @@ The way i choose is using js and html "<A>" tag to implement a dynamic photo wal
 	</script>
 </code></pre>
 
-<p></p>
+<h3>HTML code</h3>
+<p>if you want when ever you click your picture, the webpage will jump to a current page,you need to do that</p>
+<pre><code>
+<a href=#target url target="view_window">
+   <img id="photo" here is your java script>
+</a>
+</code></pre>
 
-<p>I start my morning with a cup of coffee and
-<a href="http://www.nytimes.com/">The New York Times</a>.</p>
 
 ### Code snippet
 
