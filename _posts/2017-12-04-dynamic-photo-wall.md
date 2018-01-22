@@ -3,7 +3,7 @@ layout: post
 title: Example content for posts  
 categories: JavaScript
 ---
-<h1>Dynamic Photo Wall</p>
+<h2>Dynamic Photo Wall</h2>
 
 <p>What will you do if you want to create a dynamic photo wall in your website?
 The way i choose is using js and html "<A>" tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked</p>
@@ -54,14 +54,6 @@ The way i choose is using js and html "<A>" tag to implement a dynamic photo wal
   		count = photos.length - 1;
 	}
 	</script>
-</code></pre>
-
-<h3>HTML code</h3>
-<p>if you want when ever you click your picture, the webpage will jump to a current page,you need to do that</p>
-<pre><code>
-<a href=#target url target="view_window">
-   <img id="photo" here is your java script>
-</a>
 </code></pre>
 
 
