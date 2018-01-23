@@ -10,6 +10,9 @@ The way i choose is using js and html <A> tag to implement a dynamic photo wall 
 
 You need to think what kind of data structure you use, in this case i choose array, because there are few element. if you want use that to process a database you need to consider another efficient structure, such as hash map.
 Here is my full code [click][fullcode] to see full code
+
+
+
 [fullcode]:   https://github.com/zhaoqiyuan1994/PhotoWall.github.io
 [Photolink]:     http://panda1994.com/PhotoWall.github.io/
 
