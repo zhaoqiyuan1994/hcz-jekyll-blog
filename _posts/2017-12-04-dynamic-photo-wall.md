@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content for posts  
+title: Dynamic photo Wall  
 categories: JavaScript
 ---
 Dynamic Photo Wall
