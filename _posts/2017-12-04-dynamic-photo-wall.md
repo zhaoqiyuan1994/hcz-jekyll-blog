@@ -6,7 +6,7 @@ categories: JavaScript
 Dynamic Photo Wall
 There is my photo wall [view][Photolink] it
 What will you do if you want to create a dynamic photo wall in your website?
-The way i choose is using js and html <A> tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked
+The way i choose is using js and html A tag to implement a dynamic photo wall and when you click on the photo, it will jump to the webpage you linked
 
 You need to think what kind of data structure you use, in this case i choose array, because there are few element. if you want use that to process a database you need to consider another efficient structure, such as hash map.
 Here is my full code [click][fullcode] to see full code
