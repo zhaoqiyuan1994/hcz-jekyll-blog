@@ -1,0 +1,9 @@
+---
+layout: post
+title: The concurrent and parallel in Java 
+categories: Java
+---
+
+In many casese we trying to improve the efficiency of our code. For example, now we asked to design a programm to solve the ticket booking system. if a persion want to book a ticket, he may 1.log in account 2.sent his info to database 3.choose a ticket 4.buy it.
+for our system we have to 1.verfied user info 2.get the info from database 3.sent info to user 4.sent the purchease info to database.
+Generally it will take few second if there is only one user. The process is a single thread Synchronised. Because you have to wait the system back the info that the ticket you want still in stock. However, if there are more than 1000 person using the system at the same time, what will happened ? It means the system have to solve the problem one by one, it will take !000*singleTreadTime. Obviously it will not acceptable by user. Therefore we need to use "Concurrent", On my acknowledge, the concurrent in java means the step will be parted by many pieces, all of them can be invoke at the same time. In our case, if the process will be done by 8 steps, each step can be invoke only the pravious step is done. The concurrent let all of done together..In this way reduce the timing and more efficiency..But ! there is a problem, when we invoke more part, the less time we use, the total time is still 1000*(singleTime-reduceTime)...It is not enough for us to satisfy users. Now we need a new model it is "Parallel", it is easy to understand, if there are 1000 users our system invoke 1000 treads ,(multithreading), in this way the time we use should be 1000*singleTread/1000=singleTread. Infact it is impossible to reduce so much time, but it is still the most effciency way to hand out some linear process, such as ticket system, online store, and University course management system...
